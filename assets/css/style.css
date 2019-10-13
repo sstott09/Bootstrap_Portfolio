@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("/Users/stevenstott/DU/Code_Boot_Camp/Homework/02-css-bootstrap/Bootstrap-Portfolio/assets/Images/The Sisters Background.jpg") no-repeat center center fixed; 
+  background: url("./assets/imagesThe Sisters Background.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
