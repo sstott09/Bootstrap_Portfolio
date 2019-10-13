@@ -8,62 +8,64 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 </head>
 
-<body>
-    <!-- Row 1 -->
-    <div class="row-1">
-        <div class="col-sm-12">
-            <header id="masthead">
+    <body>
+<!-- Row 1 -->
+<div class="row-1">
+    <div class="col-sm-12">
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Steven M Stott</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Row 2 -->
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>Contact</h1>
+
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com"
+                                required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+
+            </section>
+
+        </div>
+
+    </div> <!-- Row 3 -->
+    <div class="row-3">
+        <div class="col-md-12">
+            <footer>
                 <div class="container">
-                    <a href="index.html" id="logo">Steven M Stott</a>
-                    <nav>
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </nav>
+                    Copyright &copy 2019
                 </div>
-            </header>
-
-            <!-- Row 2 -->
-            <div id="main-container" class="container">
-                <section class="main-section">
-                    <h1>Contact</h1>
-
-                    <form id="contact-form">
-                        <ul>
-                            <li>
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                            </li>
-                            <li>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="example@gmail.com"
-                                    required="required">
-                            </li>
-                            <li>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" required="required"></textarea>
-                            </li>
-                        </ul>
-                        <input type="submit">
-                    </form>
-
-                </section>
-
-            </div>
-
-        </div> <!-- Row 3 -->
-        <div class="row-3">
-            <div class="col-md-12">
-                <footer>
-                    <div class="container">
-                        Copyright &copy 2019
-                    </div>
-                </footer>
-            </div>
+            </footer>
         </div>
     </div>
+</div>
 </body>
 </body>
 
