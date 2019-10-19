@@ -20,7 +20,3 @@ In this assignment, I've created a portfolio using the Bootstrap CSS Framework.
 
 ### Portfolio Links
 https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
-https://github.com/sstott09/Bootstrap_Portfolio
-https://sstott09.github.io/Bootstrap_Portfolio_Homework/
-https://github.com/sstott09/Bootstrap_Portfolio/tree/master/assets/css
-https://github.com/sstott09/Bootstrap_Portfolio/tree/master/assets/images
