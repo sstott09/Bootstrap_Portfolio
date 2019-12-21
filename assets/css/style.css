@@ -3,7 +3,8 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/The Sisters Background.jpg") no-repeat center center/100%;
+  background: url("../images/The Sisters Background.jpg") no-repeat 15%;
+  background-size: cover;
 }
 
 * {
@@ -148,6 +149,54 @@ h2 {
   margin: 10px 0 10px;
   overflow: auto;
   height: auto;
+}
+
+.card {
+  position: relative;
+  float: left;
+  width: 290px;
+  height: 380px;
+  margin: 0px 15px 30px 15px;
+  overflow: auto;
+  background-color: #67808d;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-img-top {
+  position: relative;
+  width: 398px;
+  overflow: auto;
+  height: 265px;
+}
+
+.card h3{
+  position: bottom;
+  width: auto;
+  height: 40px;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #aa4a57;
+}
+
+.card h4{
+  font-size: 13px;
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+}
+
+.card h5{
+  font-size: 10px;
+  padding-top: 5px;
+  background-color: goldenrod;
+  color: black;
+  text-align: center;
 }
 
 .work:nth-child(even) {
